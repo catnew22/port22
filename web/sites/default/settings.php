@@ -224,6 +224,17 @@ $databases = [];
  * @endcode
  */
 
+/**
+ * Include the Pantheon-specific settings file.
+ *
+ * n.b. The settings.pantheon.php file makes some changes
+ *      that affect all environments that this site
+ *      exists in.  Always include this file, even in
+ *      a local development environment, to ensure that
+ *      the site settings remain consistent.
+ */
+include __DIR__ . "/settings.pantheon.php";
+
 // Automatically generated include for settings managed by ddev.
 if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
   include $app_root . '/' . $site_path . '/settings.ddev.php';
