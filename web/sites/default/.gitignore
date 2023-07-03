@@ -4,3 +4,4 @@
 
 /settings.ddev.php
 /drushrc.php
+/default.services.pantheon.preproduction.yml
