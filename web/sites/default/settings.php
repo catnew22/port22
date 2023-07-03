@@ -224,6 +224,11 @@ $databases = [];
  * @endcode
  */
 
+// Automatically generated include for settings managed by ddev.
+if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
+  include $app_root . '/' . $site_path . '/settings.ddev.php';
+}
+
 /**
  * Include the Pantheon-specific settings file.
  *
@@ -234,11 +239,6 @@ $databases = [];
  *      the site settings remain consistent.
  */
 include __DIR__ . "/settings.pantheon.php";
-
-// Automatically generated include for settings managed by ddev.
-if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
-  include $app_root . '/' . $site_path . '/settings.ddev.php';
-}
 
 /**
  * Location of the site configuration files.
@@ -280,7 +280,7 @@ $settings['config_sync_directory'] = '../config/sync';
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'w5Wyd6Fe2vGwRfLqTB2f0pSdm_Ei7FUUVIhpOVzPOMEXPY64SZ5xOLMebT0nfwapg-V5NhV8Mw';
 
 /**
  * Deployment identifier.
