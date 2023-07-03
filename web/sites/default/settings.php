@@ -240,6 +240,7 @@ if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
  */
 include __DIR__ . "/settings.pantheon.php";
 
+
 /**
  * Location of the site configuration files.
  *
