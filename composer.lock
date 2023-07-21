@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b335a6cb2285fae2f2ff540ac2170254",
+    "content-hash": "98f71c7204a83a63ae87d69417a27c93",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3810,7 +3810,7 @@
         },
         {
             "name": "pantheon-upstreams/upstream-configuration",
-            "version": "dev-master",
+            "version": "dev-develop",
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",

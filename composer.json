@@ -28,7 +28,7 @@
         "drupal/mysql56": "^1.6",
         "drush/drush": "^12",
         "pantheon-systems/drupal-integrations": "^10",
-        "pantheon-upstreams/upstream-configuration": "dev-master"
+        "pantheon-upstreams/upstream-configuration": "dev-develop"
     },
     "conflict": {
         "drupal/drupal": "*"
