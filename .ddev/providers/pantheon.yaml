@@ -41,7 +41,7 @@
 # `ddev exec terminus site:list` will show available sites
 
 environment_variables:
-  project: port21.dev
+  project: 3559013d-277d-4a85-b931-daf292e7946a.dev
 
 auth_command:
   command: |
